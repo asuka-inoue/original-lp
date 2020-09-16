@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand レンタルウェディングドレス</title>
+  <meta name="description" content="ウェディングドレスのレンタル会社です。ドレス選びに迷ったらドレスコンシェルジュに無料で相談できます。">
+  <meta name="keywords" content="ドレス,カラードレス,レンタル,安い,無料相談,トータルコーディネート">
+
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Noto+Serif:ital,wght@1,400;1,700&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- main -->
+  <main>
+    <!-- fv -->
+    <div class="fv">
+      <div class="main-copy"> 
+        <p class="ja-title">着たいドレスに、<br>
+        きっと出会える</p>
+        <p class="en-title">BRAND</p>
+      </div>
+    </div>
+    <!-- //fv -->
+
+    <!-- concept -->
+    <section class="section-wrapper" id="concept">
+      <h2 class="section-title">Concept</h2>
+      <div class="section-inner">
+        <h3 class="ja-copy">人生最高の1日のために</h3>
+          <p class="concept-text">
+            自分らしく自由に、もっと美しく、もっと可愛らしいウエディングドレス選びのために。
+            家族のように、親友のように、想いに寄り添う。
+            ドレスから小物まで、あなたのお気に入りのものがきっと見つかります。 
+          </p>
+      </div>
+    </section>
+    <!-- //concept -->
+
+    <!-- rental plan -->
+      <div class="plan-flex">
+        <div class="plan-box1">
+          <img src="./image/rental-img.png" alt="">
+        </div>
+        <div class="plan-box2">
+          <img src="./image/Rental Plan .png" alt="">
+          <img src="./image/money.png" alt="">
+          <a href="" class="link-btn fadein">資料請求<br>
+               お問い合わせ・来店予約</a>
+        </div>
+      </div> 
+    <!-- //rental plan -->
+
+    <!-- costume -->
+    <section class="section-wrapper" id="costume">
+        <h2 class="section-title">Costume</h2>
+        <div class="costume-flex">
+          <div class="flex-item fadein">
+            <img src="./image/weddingdress.png" alt="dress">
+          </div>
+          
+          <div class="flex-item fadein">
+            <img src="./image/colordress.png" alt="colordress">
+          </div>
+            
+          <div class="flex-item fadein">
+            <img src="./image/accessories.png" alt="accessories">
+          </div>
+            
+          <div class="flex-item fadein">
+            <img src="./image/bouquet.png" alt="bouquet">
+          </div>
+        </div>
+        <p class="costume-list-text1">ドレス選びに困ったら</p>
+        <h3 class="ja-copy">ドレスコンシェルジュに<br class="sp">相談！</h3>
+        <p class="costume-list-text2">ドレスのこと予約のこと、<br class="sp">ドレスコンシェルジュが<br class="sp">幅広くサポートします！<br>
+          お気軽にご相談ください。</p>
+        <a href="" class="link-btn fadein">LINEで無料相談</a>
+    </section>
+    <!-- //costume -->
+
+    <!-- coordinate -->
+    <section class="section-wrapper" id="coordinate">
+      <div class="flex">
+        <div class="flex-item-text1">
+          <h2 class="section-title">Total Coordinate</h2>
+          <h3 class="ja-copy">魅力を最大限に引き出す<br>
+            トータルコーディネート</h3>
+          <p class="coordinate-text">
+            ドレス選びからアクセサリーなどの小物、ヘア＆メイク、ブーケまで、それぞれのスペシャリストが一人の花嫁をトータルにコーディネートいたします。<br>
+            スタッフすべてがご要望をしっかりお聴きしてイメージや想いを共有。<br>
+            プロならではの豊富な技術とノウハウ、感性を活かして花嫁の魅力、ドレスの美しさを最大限に引き出します。<br>
+            理想を叶えて笑顔輝く花嫁を拝見するのが、私たちの何よりの喜びです。
+          </p>
+        </div>
+        <div class="flex-item-img">
+            <img src="./image/coordinate.png" alt="coordinate">
+        </div>
+     </div>
+     <!--  //coordinate -->
+
+     <!-- collection -->
+       <div class="flex">
+         <div class="flex-item-img">
+            <img src="./image/collection.png" alt="collection">
+         </div> 
+         <div class="flex-item-text2">
+          <h2 class="section-title">Collection</h2>
+          <h3 class="ja-copy">すべての花嫁の憧れを叶える<br>
+            ラインナップ</h3>
+            <p class="coordinate-text">
+              ひとつのブランドにこだわらず、国内・海外からセレクト。<br>
+              バリエーションに富んだウェディングドレスを取り揃えています。<br>
+              また、お客さまのご要望に応えたオリジナルドレスなど、流行に流されない、本当にあなたに似合うウェディングドレスをご用意いたします。</p>
+         </div>
+       </div>
+     </section>
+     <!-- //collection -->
+
+     <!-- review -->
+     <section class="section-wrapper" id="review">
+      <h2 class="section-title">Review</h2>
+      <h3 class="ja-copy">お客様の声</h3>
+      <ul class="review-list">
+        <li class="fadein">
+          <img src="./image/review1.png" alt="お客様の写真">
+        </li>
+        <li class="fadein"><p class="review-list-text-b">大阪府 〇〇様</p>
+          <p class="review-list-text-s">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li class="fadein">
+          <img src="./image/review2.png" alt="お客様の写真">
+        </li>
+        <li class="fadein">
+          <p class="review-list-text-b">兵庫県 〇〇様</p>
+          <p class="review-list-text-s">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li class="fadein">
+          <img src="./image/review3.png" alt="お客様の写真">
+        </li>
+        <li class="fadein">
+          <p class="review-list-text-b">京都府 〇〇様</p>
+          <p class="review-list-text-s">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li class="fadein">
+          <img src="./image/review4.png" alt="お客様の写真">
+        </li>
+        <li class="fadein"><p class="review-list-text-b">滋賀県 〇〇様</p>
+          <p class="review-list-text-s">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+      </ul>
+    </section>
+     <!-- //review -->
+
+     <section class="section-wrapper" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-inner">
+        <h3 class="ja-copy">ドレスコンシェルジュに相談</h3>
+        <div class="address fadein">
+          <p class="address-text">〒000-0000<br>
+            大阪府大阪市〇〇12-34-5</p>
+          <a class="tel" href="tel:0000-000-0000"><img src="./image/tel.png" alt="tel"></a>
+            <a href="" class="link-btn">資料請求<br>
+              お問い合わせ・来店予約</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.transit.js"></script>
+  <script type="text/javascript" src="jquery.textFx.js"></script>
+  <script type="text/javascript">
+
+  $(document).ready(function() {
+    $('.en-title').textFx({
+    type: 'slideIn', //動きfadeIn slideIn rotate scale
+    iChar: 60, //文字間の表示間隔
+    iAnim: 600, //アニメーションの速度
+    direction: 'top' //現れる方向slideのみ
+    });
+    });
+
+    $(function(){
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > position - windowHeight + 200){
+                $(this).addClass('active');
+            }
+        });
+    });
+});
+  </script>
+    
+</body>
+<footer>
+  <small>&copy;BRAND.2020</small>
+</footer>
+</html>
