@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Noto+Serif:ital,wght@1,700&family=Tangerine:wght@700&display=swap" rel="stylesheet');
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #5D5C59;
+  font-size: 1.4rem;
+  font-family: "Noto Serif", "Noto Serif JP", serif, "Tangerine", cursive;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section-wrapper {
+  padding: 10%;
+}
+
+.section-title {
+  text-align: center;
+  max-width: 1000px;
+  color: #5D5C59;
+  font-size: 4rem;
+  font-style: bold;
+  margin: 0em auto 10%;
+}
+
+.section-title::before {
+  content: "";
+  display: inline-block;
+  background-color: #5D5C59;
+  width: 50px;
+  height: 3px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.section-title::after {
+  content: "";
+  display: inline-block;
+  background-color: #5D5C59;
+  width: 50px;
+  height: 3px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.ja-copy {
+  font-size: 3rem;
+}
+
+.link-btn {
+  display: block;
+  width: 235px;
+  line-height: 20px;
+  padding: 10px 5px;
+  background-color: #c950b2;
+  box-shadow: 0 0 6px #1b1310;
+  border-radius: 10px;
+  text-align: center;
+  color: #fdfcf6;
+  font-weight: normal;
+  text-decoration: none;
+  transition: .3s;
+  margin: 10% auto;
+}
+
+.link-btn:hover {
+  opacity: .7;
+  transition: .3s;
+}
+
+.sp {
+  display: none;
+}
+
+.fadein {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1s;
+}
+
+.fadein.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* ----------- */
+/*  first view  */
+/* ----------- */
+.fv {
+  height: 100vh;
+  min-height: 500px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../image/top.png");
+}
+
+.main-copy {
+  display: inline-flex;
+}
+
+.main-copy .ja-title {
+  color: #c950b2;
+  font-weight: normal;
+  font-size: 6rem;
+  position: absolute;
+  left: 3%;
+  bottom: 50%;
+  text-shadow: 1px 2px 3px #573F00;
+}
+
+.main-copy .en-title {
+  text-align: right;
+  color: #F4C9C9;
+  font-family: 'Tangerine';
+  font-size: 9rem;
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+  text-shadow: 1px 2px 3px #573F00;
+}
+
+/* ----------- */
+/*   concept   */
+/* ----------- */
+#concept .section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#concept .section-inner .ja-copy {
+  width: 50%;
+}
+
+#concept .section-inner p {
+  width: 50%;
+}
+
+/* ----------- */
+/*   rental plan   */
+/* ----------- */
+.plan-flex {
+  display: flex;
+}
+
+.plan-flex .plan-box1, .plan-flex .plan-box2 {
+  width: 50%;
+  background-size: 100%;
+}
+
+.plan-flex .plan-box1 img {
+  height: 100%;
+}
+
+.plan-flex .plan-box2 {
+  text-align: center;
+  color: #573F00;
+  background: url("../image/rental-back.png");
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.plan-flex .plan-box2 img {
+  width: 70%;
+  margin: 20% auto 0;
+}
+
+/* ----------- */
+/*   costume   */
+/* ----------- */
+#costume {
+  background: url("../image/costume-back.png") center;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  text-align: center;
+}
+
+#costume .costume-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#costume .flex-item {
+  margin: 5% auto;
+  width: 42.5%;
+}
+
+#costume p, #costume h3 {
+  color: #573F00;
+}
+
+#costume p {
+  font-size: 2rem;
+}
+
+#costume .costume-list-text2 {
+  margin: 30px auto;
+}
+
+#costume .link-btn {
+  padding: 3%;
+  font-size: 2rem;
+}
+
+/* ----------- */
+/*   coordinate  */
+/* ----------- */
+#coordinate {
+  text-align: center;
+  padding: 0;
+}
+
+#coordinate .flex {
+  display: flex;
+}
+
+#coordinate .ja-copy {
+  margin: 0 auto 10%;
+}
+
+#coordinate .flex-item-img, #coordinate .flex-item-text1, #coordinate .flex-item-text2 {
+  width: 50%;
+  height: 700px;
+  flex: 1 0 auto;
+}
+
+#coordinate .section-title {
+  font-size: 3rem;
+}
+
+#coordinate .section-title::before {
+  width: 20px;
+  height: 2px;
+  margin-right: 5px;
+}
+
+#coordinate .section-title::after {
+  width: 20px;
+  height: 2px;
+  margin-left: 5px;
+}
+
+#coordinate p {
+  text-align: left;
+}
+
+#coordinate img {
+  height: 700px;
+  object-position: center;
+  object-fit: cover;
+}
+
+#coordinate .flex-item-text1, #coordinate .flex-item-text2 {
+  padding: 10% 5%;
+  box-sizing: border-box;
+}
+
+/* ----------- */
+/*  review    */
+/* ----------- */
+#review {
+  background: url("../image/review-back.png");
+  background-size: cover;
+  text-align: center;
+}
+
+#review .review-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#review .review-list li {
+  width: 23%;
+  margin: 5% auto;
+}
+
+#review .review-list li img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+#review .section-title {
+  margin-bottom: 30px;
+}
+
+#review .review-list-text-s {
+  text-align: left;
+}
+
+/* ----------- */
+/*  contact    */
+/* ----------- */
+#contact {
+  background: url("../image/contact-back.png");
+  color: #573F00;
+  background-size: cover;
+  text-align: right;
+}
+
+#contact .section-title {
+  text-align: right;
+  margin: 0 3% 0 auto;
+}
+
+#contact .ja-copy {
+  margin: 5% auto;
+  font-size: 2.6rem;
+}
+
+#contact .section-inner .address {
+  margin: 0 0 0 auto;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid none;
+  width: 300px;
+  text-align: center;
+}
+
+#contact .section-inner .address img {
+  margin: 10% auto 0;
+}
+
+#contact .section-inner .address .address-text {
+  font-size: 1.8rem;
+}
+
+#contact .section-inner .address .link-btn {
+  margin: 20px auto 0;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  /* ----------- */
+  /*   base_sp   */
+  /* ----------- */
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-title::before {
+    height: 2px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .section-title::after {
+    height: 2px;
+    width: 30px;
+    margin-left: 10px;
+  }
+  .section-wrapper {
+    padding: 5%;
+  }
+  .sp {
+    display: block;
+  }
+  .ja-copy {
+    font-size: 2rem;
+  }
+  /* ----------- */
+  /*    fv_sp     */
+  /* ----------- */
+  .fv {
+    height: 60vh;
+  }
+  .fv .ja-title {
+    font-size: 3rem;
+  }
+  .fv .en-title {
+    font-size: 6rem;
+  }
+  /* ----------- */
+  /*  concept_sp   */
+  /* ----------- */
+  #concept .section-inner {
+    display: block;
+  }
+  #concept .section-inner .ja-copy {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  #concept .section-inner .concept-text {
+    width: 100%;
+  }
+  /* ----------- */
+  /*  plan_sp   */
+  /* ----------- */
+  .plan-flex {
+    display: block;
+  }
+  .plan-flex .plan-box1, .plan-flex .plan-box2 {
+    width: 100%;
+  }
+  /* ----------- */
+  /*  costume_sp  */
+  /* ----------- */
+  #costume .costume-flex {
+    display: block;
+  }
+  #costume .costume-flex .flex-item {
+    width: 100%;
+  }
+  #costume p {
+    font-size: 1.4rem;
+  }
+  /* ----------- */
+  /*  coordinate_sp  */
+  /* ----------- */
+  #coordinate {
+    color: #282F35;
+  }
+  #coordinate .section-title {
+    font-size: 2rem;
+    color: #282F35;
+  }
+  #coordinate .flex {
+    display: block;
+    height: 600px;
+  }
+  #coordinate .flex-item-text1 {
+    width: 100%;
+    background: url("../image/coordinate.png");
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+  }
+  #coordinate .flex-item-text2 {
+    width: 100%;
+    background: url("../image/collection.png");
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+  }
+  #coordinate .flex-item-img {
+    display: none;
+  }
+  /* ----------- */
+  /*  review_sp  */
+  /* ----------- */
+  #review .review-list li {
+    width: 45%;
+  }
+  /* ----------- */
+  /*  contact_sp  */
+  /* ----------- */
+  #contact {
+    text-align: center;
+    padding-bottom: 15%;
+  }
+  #contact .section-title {
+    text-align: center;
+  }
+  #contact .ja-copy {
+    font-size: 2rem;
+  }
+  #contact .section-inner .address {
+    width: auto;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  #contact .section-inner .address img {
+    width: 90%;
+  }
+  #contact .section-inner .address .address-text {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
